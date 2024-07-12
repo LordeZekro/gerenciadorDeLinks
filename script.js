@@ -18,19 +18,18 @@ function toggleMode () {
     }
     // Caso não esteja ele irá usar a foto padrão
     else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
     }
   
     
     const alt =document.querySelector("#profile img")
 
     if(html.classList.contains("light")) {
-      alt.setAttribute("alt", "Foto do Mayk Brito sorrindo, de óculos com grau em fundo colorido")
+      alt.setAttribute("alt", "Foto do Eduardo sorrindo, de óculos com grau")
     }
 
     else {
-      alt.setAttribute(
-        "alt","Foto do Mayk Brito sorrindo, de óculos escuros em fundo colorido")
+      alt.setAttribute("alt", "Foto do Eduardo sorrindo, de óculos com grau")
     }
 
 
